@@ -18,14 +18,21 @@ the three things that break real ML systems most often.
 
 Each chapter gets its own folder:
 
+```text
 CH<n>/
-├── questions.md # back-of-chapter exercise answers, in my own words
-├── gate-check.md # synthesis questions connecting this chapter
-│ # to prior ones (not from the book)
-├── <topic>.py # from-scratch implementation, no ML library
-└── README.md # (if the chapter has a non-trivial deliverable
-# beyond the two files above)
+├── questions.md       # back-of-chapter exercise answers, in my own words
+├── gate-check.md       # synthesis questions connecting this chapter
+│                        # to prior ones (not from the book)
+├── <topic>.py           # from-scratch implementation, no ML library
+└── README.md             # (if the chapter has a non-trivial deliverable
+                           #  beyond the two files above)
+```
 
+One commit per milestone within a chapter, so the commit history itself
+shows the order concepts were built in, not just the final state.
+
+
+# beyond the two files above
 
 One commit per milestone within a chapter, so the commit history itself
 shows the order concepts were built in, not just the final state.
